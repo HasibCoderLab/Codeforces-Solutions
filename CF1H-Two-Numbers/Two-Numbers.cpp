@@ -1,0 +1,21 @@
+//  ================================================
+//                Platform : Codeforces
+//                Contest  : CF1H
+//                Problem  : Digits Summation$
+//                Language : C++
+//                Topic    : [Two-Numbers.cpp]
+//                File     : Two-Numbers.cpp
+// ================================================
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    double A, B;
+    cin >> A >> B;
+    cout << "floor " << A << " / " << B << " = " << floor(A / B) << endl;
+    cout << "ceil " << A << " / " << B << " = " << ceil(A / B) << endl;
+    cout << "round " << A << " / " << B << " = " << round(A / B) << endl;
+
+    return 0;
+}
